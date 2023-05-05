@@ -1,0 +1,24 @@
+.personas-heading{
+    background: rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+#cards-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    background: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 15px;
+    width: 240px;
+    margin: 5px;
+}
